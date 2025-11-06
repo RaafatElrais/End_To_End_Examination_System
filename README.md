@@ -4,82 +4,88 @@
 
 ### 📘 Project Overview
 
-This project represents a **comprehensive digital examination management system** developed as a **graduation project** by a team of **five members** — designed and built **entirely from scratch** based on the real business model of an educational institution.
+This project represents a **comprehensive digital examination management system** developed as a **graduation project** by a team of **five members**, led and coordinated by **myself (Team Leader)**.  
+We designed and built the entire solution **from scratch**, following an **Agile methodology** and managing progress through **Trello** boards for sprint planning, task tracking, and team collaboration.
 
-The goal was to **digitize the full examination lifecycle** — from student registration and question creation to online test delivery, automated grading, and performance analytics — integrating **SQL Server, Python (Streamlit), SSRS, Power BI, and Power Apps** into one unified, data-driven platform.
+The goal was to **digitize the full examination lifecycle** — from student registration and question creation to online test delivery, automated grading, and analytics — integrating **SQL Server, Python (Streamlit), SSRS, Power BI, and Power Apps** into one unified, data-driven platform.
 
 ---
 
 ### 🎯 Business Problem & Objective
 
-The institution’s manual examination process was time-consuming, error-prone, and lacked data visibility.
+The institution’s manual examination process was time-consuming, error-prone, and lacked real-time performance visibility.
 
-Our objective was to:
-- Build a fully automated, digital examination platform aligned with the institution’s business rules.
-- Centralize student, course, and exam data to ensure integrity and traceability.
-- Deliver instant scoring, analytics, and visual reports for academic decision-making.
-- Create a system that could be **scalable, maintainable, and business-oriented**.
+Our objectives were to:
+- Build a fully automated, digital examination platform aligned with academic business processes.
+- Centralize all student, course, and exam data with structured, secure storage.
+- Enable online testing, instant scoring, and dynamic result reporting.
+- Deliver high-level business intelligence dashboards for academic decision-making.
+
+---
+
+### 🧩 Agile Process & Team Collaboration
+
+The project was managed using **Agile principles**, divided into **weekly sprints** with continuous iteration and review cycles.  
+We used **Trello** for project management — assigning tasks, tracking deadlines, and monitoring progress across development, testing, and documentation phases.
+
+As the **Team Leader**, my responsibilities included:
+- Setting sprint goals and distributing development tasks among the five team members.  
+- Overseeing integration between the database, Streamlit app, and reporting components.  
+- Conducting weekly sprint reviews and retrospectives to ensure delivery milestones.  
+- Ensuring technical alignment, testing coordination, and version control using GitHub.
 
 ---
 
 ### 🏗️ System Development from Scratch
 
-Based on the business requirements, we developed the system **completely from zero**, generating every layer manually — from database to dashboards.
+The system was developed **entirely from zero**, based on the institution’s business logic and operational needs.
 
 Key steps:
-- Designed a **custom SQL Server database schema** and ER Diagram to store all entities (students, courses, exams, results).
-- Built **stored procedures** for registration, question generation, grading, and performance reports.
-- Inserted all institutional data manually (student records, questions, results) to mirror real operations.
-- Created a **Streamlit web application in Python**, allowing students and administrators to conduct exams online with **real-time scoring** and **automatic result storage** directly in the database.
-- Integrated **Power Apps** to provide a live exam screen and administrative control interface.
-- Designed **SSRS reports** and **Power BI dashboards** to visualize academic KPIs such as pass rates, subject difficulty, and average scores.
+- Designed a **custom SQL Server database schema** and **ER Diagram** for storing students, courses, exams, and results.  
+- Built **stored procedures** for registration, grading, question randomization, and performance reports.  
+- Inserted all business data manually to simulate real institutional operations.  
+- Developed a **Streamlit web application in Python** for conducting exams online with **real-time scoring** and **automatic database storage**.  
+- Integrated **Power Apps** for a live exam interface and administrative management.  
+- Designed **SSRS reports** and **Power BI dashboards** to visualize key performance indicators such as pass rates, question difficulty, and subject averages.
 
 ---
 
-### 🧑‍🤝‍🧑 Team Collaboration
+### 🧑‍🤝‍🧑 Team Structure
 
-This project was developed collaboratively by **five team members**, each handling a specialized part of the system.
+| Role | Responsibility |
+|------|----------------|
+| **Team Leader (Me)** | Managed Agile workflow (Trello), designed Streamlit web app, database integration, Power BI dashboards, and ETL pipelines. |
+| Member 2 | SQL database design and schema normalization. |
+| Member 3 | SSRS reports development and testing. |
+| Member 4 | Power Apps interface and connectivity setup. |
+| Member 5 | Documentation, system testing, and QA validation. |
 
-**My Role:**
-- Designed and implemented the **Streamlit web application** using Python.
-- Developed **stored procedures** and handled **database-to-app connectivity**.
-- Built and published **Power BI dashboards** for performance monitoring and analytics.
-- Managed **data modeling and ETL** processes for clean, accurate analysis.
-
-Other teammates contributed to:
-- SQL schema design and optimization.
-- SSRS reporting setup.
-- Power Apps and Power BI interface development.
-- Full documentation and testing.
-
-> 💡 While the system was a team effort, the **Streamlit web interface**, **Python integration**, and **Power BI dashboards** were entirely developed and managed by me.
+> 💡 While the project was a team effort, I led the team and personally developed the **Streamlit application**, **database logic**, and **BI dashboards** ensuring complete end-to-end functionality.
 
 ---
 
 ### 📁 Repository Contents
 
-- 🗂️ **Full Project Documentation** — business problem, ERD, schema, and process flow.
-- 💾 **Database Backup (.bak)** — complete SQL Server database for testing or replication.
-- 💻 **Streamlit Web Application Files** — Python scripts for exam management and result automation.
-- 📊 **Power BI Dashboards** — student performance, exam difficulty, and success rate analytics.
-- 📑 **SSRS Reports** — static and parameterized reports for administrative use.
-- ⚙️ **SQL Scripts & Stored Procedures** — core logic for grading, registration, and data analysis.
+- 🗂️ **Full Project Documentation** — includes business problem, ERD, schema,SQL Scripts & Stored Procedures, and process flow.  
+- 💾 **Database Backup (.bak)** — complete SQL Server database for replication and testing.  
+- 💻 **Streamlit Web Application (Python)** — exam management, grading automation, and admin interface.  
+- 📊 **Power BI Dashboards** — academic performance, student trends, and difficulty analysis.  
+- 📑 **SSRS Reports** — static and dynamic reporting modules.  
 
 ---
 
 ### 🧱 System Architecture
 
 **1️⃣ Database Layer**
-- SQL Server relational schema with normalized tables for Students, Exams, Subjects, and Results.
-- Stored procedures for automation and transaction management.
+- SQL Server schema and stored procedures for automation and grading logic.  
 
 **2️⃣ Application Layer**
-- Streamlit web application in Python for online exam delivery.
-- Power Apps-based exam screen integrated with SQL backend.
+- Streamlit web application (Python) for exam execution and result storage.  
+- Power Apps interface for live exam delivery and admin control.  
 
 **3️⃣ Analytics & Reporting Layer**
-- SSRS reports for detailed performance summaries.
-- Power BI dashboards with dynamic visuals and KPIs.
+- SSRS reports for detailed academic reports.  
+- Power BI dashboards for institutional insights and KPIs.  
 
 ---
 
@@ -91,26 +97,28 @@ Other teammates contributed to:
 | Backend & App | Python, Streamlit, Power Apps |
 | Reporting & Analytics | SSRS, Power BI |
 | Data Processing | Power Query, ETL |
+| Project Management | Agile Methodology, Trello |
 | Version Control | Git & GitHub |
 
 ---
 
 ### 📈 Key Achievements
 
-- Developed and deployed a complete examination management platform from scratch.
-- Automated exam creation, grading, and analytics for almost **1,000 students**.
-- Reduced manual grading and reporting time by **80%**.
-- Enabled **real-time exam delivery, scoring, and result storage**.
-- Built fully interactive dashboards improving visibility into academic performance trends.
+- **Led a team of five** to build a full-scale academic examination system using Agile principles.  
+- **Automated** the entire examination workflow for almost **1,000 students**, including scheduling, grading, and result reporting.  
+- **Reduced manual grading and reporting time by 80%** using automated stored procedures and Power BI insights.  
+- Ensured **real-time scoring and database synchronization**, enhancing transparency and efficiency.  
+- Delivered a professional-level academic solution replicating real institutional systems.
 
 ---
 
 ### ⚙️ Future Enhancements
 
-- Integrate **AI-based grading** using NLP for essay-type questions.
-- Implement **Power Automate** for notifications and result dispatching.
-- Deploy to **Azure Cloud** for scalability and secure multi-user access.
-- Add role-based authentication for administrators, teachers, and students.
+- Integrate **AI-based grading** using NLP for essay questions.  
+- Implement **Power Automate** for result notifications and report scheduling.  
+- Deploy to **Azure Cloud** for multi-user scalability and 24/7 access.  
+- Introduce **role-based authentication** for students, teachers, and administrators.
+
 
 ---
 
