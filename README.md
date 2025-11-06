@@ -98,7 +98,7 @@ Other teammates contributed to:
 ### 📈 Key Achievements
 
 - Developed and deployed a complete examination management platform from scratch.
-- Automated exam creation, grading, and analytics for **1,000+ students**.
+- Automated exam creation, grading, and analytics for almost **1,000 students**.
 - Reduced manual grading and reporting time by **80%**.
 - Enabled **real-time exam delivery, scoring, and result storage**.
 - Built fully interactive dashboards improving visibility into academic performance trends.
@@ -115,11 +115,12 @@ Other teammates contributed to:
 ---
 
 ### 👤 Author
+**Raafat Elrais**  
+Business Intelligence Developer  
 
-**Rais** — Business Intelligence & Data Developer  
+👤 Connect with me on LinkedIn: [Raafat Elrais](https://www.linkedin.com/in/raafat-elrais/)  
 
-🔗 [LinkedIn](https://www.linkedin.com/in/raafat-elrais/)  
-📁 [GitHub](https://github.com/raafat-elrais)
+💡 #OpenToWork — always open to collaborations, BI projects, and opportunities in **Data Analytics, Visualization, and Business Intelligence.**
 
 ---
 
